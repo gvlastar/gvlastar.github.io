@@ -1,0 +1,182 @@
+ <!-- Folder Path: externalfile:drive-54d075a4176046d2af4b939bf18339e156aa1a7f/root/School/Fall%202018/67-240/Group%20Project/code/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="author" content="George Vlastarakis">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>OCGuide</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link href="css/navigation.css" type="text/css" rel="stylesheet"/>
+    
+    <link href="css/easy_access_resource.css" type="text/css" rel="stylesheet"/>
+    
+    <style>
+    
+      /*
+        Width and Height reference percentages:
+        - Navigation: 15.55556 %
+        - Content (under navigation): 201.1111 %
+      */
+      @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+      @import url('https://fonts.googleapis.com/css?family=Roboto');
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+      
+      /* General styling */
+      * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        
+        font-family: 'Open Sans';
+      }
+      
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+    
+    <div id="burger_menu">
+      <img src="x_icon.png" alt="x_icon" id="x_icon" onclick="closeNav()">
+      <div class="burger_menu_primary_item"> <a href="home.html">Home</a> </div>
+      <div class="burger_menu_primary_item" onclick="openSub('sub_easy_access')"> Easy Access </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="emergency_0.html">Emergency</a> </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="health_0.html">Health + Support</a> </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="academic_0.html">Academic + Career</a> </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="campus_0.html">Campus Community</a> </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="facilities_0.html">Facilities</a> </div>
+      <div class="burger_menu_primary_item"> <a href="all_resources.html"><i>All Resources</i></a> </div>
+      <div class="burger_menu_primary_item" onclick="openSub('sub_training')"> Training </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="emergency_1.html">Emergency</a> </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="health_1.html">Health + Support</a> </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="academic_1.html">Academic + Career</a> </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="campus_1.html">Campus Community</a> </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="facilities_1.html">Facilities</a> </div>
+      <div class="burger_menu_primary_item"> <a href="quiz.html">Quiz</a> </div>
+    </div>
+    
+    <div class="container-fluid">
+      
+      <div class="row" id="page">
+        
+        <!-- This is the navigation element, responsive on all pages. -->
+        <div id="nav" class="col-12" style="padding: 0px;">
+          
+          <!-- This is the mobile navigation element, for small screens and tablets -->
+          <div class="row mobile_navigation">
+            
+            <div class="burger_menu_icon" onclick="openNav()">
+              <img src="burger_menu_unbalanced_boxes.png" alt="photo">
+            </div>
+            
+            <div class="navigation_title">
+              <img src="CMU_Logo_Horiz_Red.png" alt="cmu logo" id="cmu_logo">
+              <p style="font-family: 'Open Sans'; font-weight: 700;"> Orientation Resource Guide </p>
+            </div>
+            
+          </div>
+          
+          <!-- This is the desktop navigation element, for large screens -->
+          <div class="col-8 desktop_navigation">
+            
+            <div class="row">
+              
+              <div class="burger_menu_icon" onclick="openNav()">
+                <img src="burger_menu_unbalanced_boxes_black.png" alt="photo">
+              </div>
+              
+              <div class="navigation_title">
+                <img src="CMU_Logo_Horiz_Red.png" alt="cmu logo" id="cmu_logo">
+                <p style="font-family: 'Open Sans'; font-weight: 700;"> Orientation Resource Guide </p>
+              </div>
+              
+            </div>
+            
+          </div>
+   
+        </div>
+        <!-- End of Navigation Elements -->
+        
+        <div class="col-11 col-lg-8 easy_access_box">
+          
+          <div class="col-12 easy_access_info">
+            <div class="title">
+              Academic Development
+            </div>
+            <br>
+            <dl>
+              <dt> Location:</dt>
+              <dd> Cyert Hall B5 </dd>
+              <dt> Hours: </dt>
+              <dd> no set hours, vary by service  </dd>
+              <dt> Description: </dt>
+              <dd>Provides academic help for all undergraduate students in all schools in the university </dd>
+              <dt>Website:</dt>
+              <dd>https://www.cmu.edu/acadev/</dd>
+  
+            </dl>
+          </div>
+          
+          <div class="col-11 col-lg-5 mt-3 easy_access_phone" style="margin: auto;">
+            412-268-6878
+          </div>
+          
+          <div class="col-12 mt-3 easy_access_info">
+            <div class="title">
+              Services
+            </div>
+            <dl>
+              <dd>Walk-in and Scheduled Peer Tutoring </dd>
+              <dd>Supplemental Instruction </dd>
+              <dd>EXCEL Collaborative Learning Groups </dd>
+              <dd>Academic Coaching </dd>
+            </dl>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    
+    <script>
+      function openNav() {
+        document.getElementById("burger_menu").style.display = "block";
+        document.getElementById("nav").style.display = "none";
+      }
+      
+      function closeNav() {
+        document.getElementById("burger_menu").style.display = "none";
+        eles = document.getElementsByClassName('burger_menu_secondary_item');
+        for (i = 0; i < eles.length; i++) {
+          eles[i].style.display = "none";
+        }
+        document.getElementById("nav").style.display = "block";
+      }
+      
+      function openSub(category) {
+        eles = document.getElementsByClassName(category);
+        for (i = 0; i < eles.length; i++) {
+          eles[i].style.display = "block";
+        }
+      }
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

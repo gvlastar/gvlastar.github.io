@@ -1,0 +1,208 @@
+<!-- Folder Path: externalfile:drive-54d075a4176046d2af4b939bf18339e156aa1a7f/root/School/Fall%202018/67-240/Group%20Project/code/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="author" content="George Vlastarakis">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>OCGuide</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link href="css/navigation.css" type="text/css" rel="stylesheet"/>
+    
+    <link href="css/training.css" type="text/css" rel="stylesheet"/>
+    
+    <style>
+    
+      /*
+        Width and Height reference percentages:
+        - Navigation: 15.55556 %
+        - Content (under navigation): 201.1111 %
+      */
+      @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+      @import url('https://fonts.googleapis.com/css?family=Roboto');
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+      
+      /* General styling */
+      * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        
+        font-family: 'Open Sans';
+      }
+      
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+    
+    <div id="burger_menu">
+      <img src="x_icon.png" alt="x_icon" id="x_icon" onclick="closeNav()">
+      <div class="burger_menu_primary_item"> <a href="home.html">Home</a> </div>
+      <div class="burger_menu_primary_item" onclick="openSub('sub_easy_access')"> Easy Access </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="emergency_0.html">Emergency</a> </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="health_0.html">Health + Support</a> </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="academic_0.html">Academic + Career</a> </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="campus_0.html">Campus Community</a> </div>
+        <div class="burger_menu_secondary_item sub_easy_access"> <a href="facilities_0.html">Facilities</a> </div>
+      <div class="burger_menu_primary_item"> <a href="all_resources.html"><i>All Resources</i></a> </div>
+      <div class="burger_menu_primary_item" onclick="openSub('sub_training')"> Training </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="emergency_1.html">Emergency</a> </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="health_1.html">Health + Support</a> </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="academic_1.html">Academic + Career</a> </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="campus_1.html">Campus Community</a> </div>
+        <div class="burger_menu_secondary_item sub_training"> <a href="facilities_1.html">Facilities</a> </div>
+      <div class="burger_menu_primary_item"> <a href="quiz.html">Quiz</a> </div>
+    </div>
+    
+    <div class="container-fluid">
+      
+      <div class="row" id="page">
+        
+        <!-- This is the navigation element, responsive on all pages. -->
+        <div id="nav" class="col-12" style="padding: 0px;">
+          
+          <!-- This is the mobile navigation element, for small screens and tablets -->
+          <div class="row mobile_navigation">
+            
+            <div class="burger_menu_icon" onclick="openNav()">
+              <img src="burger_menu_unbalanced_boxes.png" alt="photo">
+            </div>
+            
+            <div class="navigation_title">
+              <img src="CMU_Logo_Horiz_Red.png" alt="cmu logo" id="cmu_logo">
+              <p style="font-family: 'Open Sans'; font-weight: 700;"> Orientation Resource Guide </p>
+            </div>
+            
+          </div>
+          
+          <!-- This is the desktop navigation element, for large screens -->
+          <div class="col-8 desktop_navigation">
+            
+            <div class="row">
+              
+              <div class="burger_menu_icon" onclick="openNav()">
+                <img src="burger_menu_unbalanced_boxes_black.png" alt="photo">
+              </div>
+              
+              <div class="navigation_title">
+                <img src="CMU_Logo_Horiz_Red.png" alt="cmu logo" id="cmu_logo">
+                <p style="font-family: 'Open Sans'; font-weight: 700;"> Orientation Resource Guide </p>
+              </div>
+              
+            </div>
+            
+          </div>
+   
+        </div>
+        <!-- End of Navigation Elements -->
+        
+        <div class="col-11 col-lg-8 training_content">
+          <div class="col-11 col-lg-8 training_content_title">
+            Title IX
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-3 training_content_text">
+             For all inquiries about domestic and sexual violence prevention.
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-4 training_content_subtitle">
+            Prevention
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-3 training_content_text">
+            The University is committed to primary prevention to prevent incidents of sexual misconduct before they occur wherever possible.   These efforts include raising awareness, providing education and training programs, and providing campus safety initiatives including police and security patrols.  For more information about campus safety initiatives, please visit the University Police Department website.
+            <br>
+            At the individual level, there are practical strategies for reducing risk of sexual misconduct, but it is important to note that no strategy can fully eliminate the risk of sexual misconduct, and that it is never your fault if you are sexually assaulted or otherwise harmed by sexual misconduct.
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-4 training_content_subtitle">
+            Why Report?
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-3 training_content_text">
+            Reporting sexual misconduct will allow you to connect to resources and support, and if you choose, to explore your options for possible resolution.
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-4 training_content_subtitle">
+            What Happens After a Report is Made?
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-3 training_content_text">
+            The University's response to a report of sexual misconduct is largely driven by the wishes and preferences of the person affected by the sexual misconduct (the "reporting party"), to the extent consistent with the University’s commitment to protecting the broader welfare of the University Community. It is important to note that the information provided below relates only to Carnegie Mellon University's internal response to any report of sexual misconduct.
+            <br>
+            A reporting party may choose to pursue resolution through civil and/or criminal processes in addition to or instead of pursuing the University's internal process.  The Office of Title IX Initiatives will gladly assist a reporting party in reporting sexual misconduct to University Police or external law enforcement, if the reporting party wishes to do so.
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-4 training_content_subtitle">
+            Gender Identity
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-3 training_content_text">
+            Consistent with the University Statement of Assurance, Carnegie Mellon does not discriminate in admission, employment or administration of its programs or activities on the basis of a variety of demographic characteristics including sex, sexual orientation and gender identity.
+            <br>
+            Carnegie Mellon’s long standing practice with regard to gender-identified space usage supports individuals using the facility of their choice consistent with their gender identity. Institutionally we are also committed to identifying all-gender, single use spaces as a further extension of our understanding that gender binary options are not reflective of our community or our value of inclusion. Individuals who are uncomfortable in common use, gender identified spaces for any reason are encouraged to consult the list of all-gender facilities which highlights the single use options available.
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-4 training_content_subtitle">
+            Resources
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-3 training_content_text">
+            The Office of Title IX Initiatives is dedicated to providing support, information, resources and avenues for resolution to community members affected by sexual misconduct.   Learn about resources on campus and in the community.
+          </div>
+          
+          <div class="col-11 col-lg-8 mt-5 mb-3 training_content_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.347533844817!2d-79.94543178460319!3d40.44544437936175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2223e3c2551%3A0xe7763eabbc63b9d1!2sMorewood+Gardens%2C+1060+Morewood+Ave%2C+Pittsburgh%2C+PA+15213!5e0!3m2!1sen!2sus!4v1543734145450" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          
+          <div class="col-4 mt-5 mb-5 training_content_button" onclick="location.href='health_1.html';">
+            Home
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+    <script>
+      function openNav() {
+        document.getElementById("burger_menu").style.display = "block";
+        document.getElementById("nav").style.display = "none";
+      }
+      
+      function closeNav() {
+        document.getElementById("burger_menu").style.display = "none";
+        eles = document.getElementsByClassName('burger_menu_secondary_item');
+        for (i = 0; i < eles.length; i++) {
+          eles[i].style.display = "none";
+        }
+        document.getElementById("nav").style.display = "block";
+      }
+      
+      function openSub(category) {
+        eles = document.getElementsByClassName(category);
+        for (i = 0; i < eles.length; i++) {
+          eles[i].style.display = "block";
+        }
+      }
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

@@ -21,6 +21,15 @@
   width: 100%;
 }
 
+.easy_access_phone {
+  background-color: #6eff5e;
+  border-radius: 32px;
+  padding: 16px;
+  
+  text-align: center;
+  font-weight: 700;
+}
+
 @media (max-width: 767px) {
   .easy_access_box {
     margin-top: 70px;
