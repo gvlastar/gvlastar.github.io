@@ -1,0 +1,174 @@
+.training_content {
+  margin: auto;
+  padding: 0px;
+}
+
+.training_content_title {
+  margin: auto;
+  padding: 0px;
+  
+  font-weight: 700;
+  text-align: left;
+}
+
+.training_content_subtitle {
+  
+  border-radius: 32px;
+  background-color: #F5F5F5;
+  
+  margin: auto;
+  padding: 5px;
+  
+  font-weight: 700;
+  text-align: center;
+}
+
+.training_content_text {
+  margin: auto;
+  padding: 0px;
+  
+  font-weight: 400;
+  text-align: justify;
+}
+
+.training_content_text .title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.training_content_map {
+  
+  border-radius: 32px;
+  background-color: #F5F5F5;
+  
+  margin: auto;
+  padding: 32px;
+}
+
+.training_content_map iframe {
+  width: 100%;
+}
+
+.training_content_contact {
+  margin: auto;
+  
+  background-color: #F5F5F5;
+  border-radius: 32px;
+}
+
+.training_content_contact .phone {
+  border-radius: 32px;
+  background-color: #40EF46;
+  
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.training_content_button {
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #3F87FC;
+  border-radius: 32px;
+  box-shadow: 1px 1px 20px 1px #CCCCCC;
+  
+  margin: auto;
+}
+
+.training_content_button:hover {
+  opacity: 0.8;
+}
+
+/* Training content responsive styling */
+@media (max-width: 767px) {
+  #small_map {
+    display: block;
+    width: 100%;
+  }
+  
+  #big_map {
+    display: none;
+  }
+  
+  .training_content {
+    margin-top: 70px;
+  }
+  
+  .training_content_title {
+    font-size: 1.3em;
+  }
+  
+  .training_content_subtitle {
+    font-size: 1.2em;
+  }
+  
+  .training_content_text {
+    font-size: 1.2em;
+  }
+  
+  .training_content_contact {
+    height: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  #small_map {
+    display: none;
+  }
+  
+  #big_map {
+    display: block;
+    width: 100%;
+  }
+  
+  .training_content {
+    margin-top: 70px;
+  }
+  
+  .training_content_title {
+    font-size: 1.3em;
+  }
+  
+  .training_content_text {
+    font-size: 1.2em;
+  }
+  
+  .training_content_contact {
+    height: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #small_map {
+    display: none;
+  }
+  
+  #big_map {
+    display: block;
+  }
+  
+  .training_content {
+    margin-top: 100px;
+  }
+  
+  .training_content_title {
+    font-size: 1.3em;
+  }
+  
+  .training_content_subtitle {
+    font-size: 1.2em;
+  }
+  
+  .training_content_text {
+    font-size: 1.1em;
+  }
+  
+  .training_content_button {
+    font-size: 1.2em;
+  }
+  
+  .training_content_contact {
+    height: 150px;
+  }
+}
