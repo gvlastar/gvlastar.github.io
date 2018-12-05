@@ -1,0 +1,366 @@
+/* Burger Menu Content styling */
+#burger_menu {
+  display: none;
+  
+  position: fixed;
+  z-index: 10;
+  
+  background-color: #F5F5F5;
+  color: #000000;
+  
+  padding-left: 5%;
+  padding-top: 2%;
+  
+  font-family: 'Open Sans';
+}
+
+#burger_menu a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#burger_menu > :hover {
+  opacity: 0.6;
+}
+
+/* Navigation styling */
+/* for responsive attributes check further down */
+.mobile_navigation {
+  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+  
+  position: fixed;
+  z-index: 10;
+}
+
+.burger_menu_icon:hover {
+  opacity: 0.6;
+}
+
+/* Content styling */
+.easy_access_index_title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+.easy_access_index_box {
+  background-color: #F5F5F5;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  
+  border-radius: 32px;
+}
+
+.easy_access_index_item {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  letter-spacing: 1px;
+}
+
+.easy_access_index_item:hover {
+  background-color: #F1F1F1;
+}
+
+#easy_access_all {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+#easy_access_all:hover {
+  background-color: #444444;
+}
+
+.training_quiz_index_box {
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.training_index_item {
+  background-color: #FFFFFF;
+  color: #3F87FC;
+  
+  font-weight: 700;
+  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  letter-spacing: 1px;
+}
+
+.quiz_index_item {
+  background-color: #FFFFFF;
+  color: #FFBF05;
+  
+  font-weight: 700;
+  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  letter-spacing: 1px;
+}
+
+.training_index_item:hover {
+  background-color: #F1F1F1;
+}
+
+.quiz_index_item:hover {
+  background-color: #F1F1F1;
+}
+
+/* SMALL SCREENS */
+@media (max-width: 767px) {
+  
+  #burger_menu {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0%;
+    
+    padding-left: 4%;
+    padding-top: 4%;
+  }
+  
+  #x_icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #x_icon:hover {
+    opacity: 0.6;
+  }
+  
+  .burger_menu_primary_item {
+    margin-left: 4%;
+    margin-top: 5%;
+    
+    font-weight: 700;
+    font-size: 1.4em;
+  }
+  
+  .burger_menu_secondary_item {
+    display: none;
+    
+    margin-left: 8%;
+    margin-top: 1%;
+    
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  
+  /* Navigation style for mobile */
+  .mobile_navigation {
+    height: 56px;
+    padding-left: 16px;
+    
+    width: 100%;
+  }
+  
+  .desktop_navigation {
+    display: none;
+  }
+  
+  #cmu_logo {
+    width: 170px;
+    height: 14px;
+    
+    margin-left: 16px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+  }
+  
+  .navigation_title p {
+    color: #FFFFFF;
+    font-size: 1em;
+    line-height: 1.2;
+    margin: 0px;
+    margin-left: 16px;
+  }
+  
+  .navigation_title p:first-child {
+    margin-top: 8px;
+  }
+  
+  .burger_menu_icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+    padding: 0px;
+  }
+  
+  /* Content style for mobile */
+}
+
+/* TABLETS - MEDIUM SCREENS */
+@media (min-width: 768px) {
+  
+  /* Navigation Styling for tablets*/
+  #burger_menu {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0%;
+    
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  
+  #x_icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  #x_icon:hover {
+    opacity: 0.6;
+  }
+  
+  .burger_menu_primary_item {
+    margin-left: 3%;
+    margin-top: 5%;
+    
+    font-weight: 700;
+    font-size: 1.4em;
+  }
+  
+  .burger_menu_secondary_item {
+    display: none;
+    
+    margin-left: 5%;
+    margin-top: 1%;
+    
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  
+  .mobile_navigation {
+    height: 112px;
+    padding: 32px;
+    
+    width: 100%;
+  }
+  
+  .desktop_navigation {
+    display: none;
+  }
+  
+  #cmu_logo {
+    width: 170px;
+    height: 14px;
+    
+    margin-left: 32px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+  }
+  
+  .navigation_title p {
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 0px;
+    margin-left: 32px;
+  }
+  
+  .burger_menu_icon {
+    width: 48px;
+    height: 48px;
+  }
+  /* end of nav styling */
+  
+  /* Content styling */
+}
+
+/* DESKTOPS - LARGE SCREENS */
+@media (min-width: 1024px) {
+  
+  /* Navigation styling for large screens */
+  #burger_menu {
+    width: 67%;
+    height: 100%;
+    margin: 0px 0px 0px 16.5%;
+    
+    padding-left: 2%;
+    padding-top: 2%;
+  }
+  
+  #x_icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  #x_icon:hover {
+    opacity: 0.6;
+  }
+  
+  .burger_menu_primary_item {
+    margin-left: 3%;
+    margin-top: 5%;
+    
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+  
+  .burger_menu_secondary_item {
+    display: none;
+    
+    margin-left: 5%;
+    margin-top: 1%;
+    
+    font-weight: 500;
+    font-size: 1em;
+  }
+  
+  /* Desables mobile nav */
+  .mobile_navigation {
+    display: none;
+  }
+  
+  /* Navigation styling */
+  .desktop_navigation {
+    display: block;
+    
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 16px 0px 16px 32px;
+    
+    width: 100%;
+    margin-left: 16.5%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .burger_menu_icon {
+    width: 48px;
+    height: 48px;
+  }
+  
+  #cmu_logo {
+    width: 170px;
+    height: 14px;
+    
+    margin-left: 64px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .navigation_title p {
+    color: #000000;
+    font-size: 1em;
+    margin: 0px;
+    margin-left: 64px;
+  }
+  /*end of nav styling */
+  
+  /*Content styling */
+}
